@@ -139,5 +139,4 @@ fun CardItem(index: Int) {
             )
         }
     }
-
 }

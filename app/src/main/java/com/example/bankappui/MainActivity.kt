@@ -43,6 +43,7 @@ fun SetBarColor(color: Color){
     }
 }
 
+@Preview
 @Composable
 fun HomeScreen(){
     Scaffold(
@@ -56,6 +57,8 @@ fun HomeScreen(){
         ) {
             WalletSection()
             CardsSection()
+            FinanceSection()
+            CurrenciesSection()
         }
     }
 }
